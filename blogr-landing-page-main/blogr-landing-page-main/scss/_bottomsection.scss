@@ -1,0 +1,39 @@
+.section-bottom {
+    min-height: 100vh;
+    width: 100%;
+    background-color: hsl(0, 26%, 96%);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+    .info-container-bottom {
+        display: flex;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        padding-right: 7.5rem;
+
+        h2 {
+            color: hsl(208, 49%, 24%);
+            padding: 20px 0;
+            font-weight: 700;
+            font-size: 1.4rem;
+            z-index: 1;
+        }
+
+        p {
+            line-height: 2;
+            letter-spacing: 0.05rem;
+        }
+    }
+
+    .split1 {
+        display: flex;
+        justify-content: center;
+
+        img {
+            min-height: 200px;
+            max-height: 1000px;
+        }
+    }
+}

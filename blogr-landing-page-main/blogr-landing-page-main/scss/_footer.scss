@@ -1,0 +1,41 @@
+footer {
+    height: 55vh;
+    background-color: hsl(240, 10%, 16%);
+    border-radius: 0 10rem 0 0;
+    padding: 3rem 10rem;
+
+    .lists-container {
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 45px;
+            margin: auto 0;
+        }
+
+        div {
+            padding: 5em 10em;
+            color: white;
+
+            h3 {
+                font-size: 1.5em;
+                padding: 3rem 0;
+            }
+
+            li {
+                padding: 0.5rem 0;
+            }
+            
+        }
+
+        
+    }
+
+    a {
+        color: white;
+    }
+    
+    ul li {
+        list-style: none;
+    }
+}
